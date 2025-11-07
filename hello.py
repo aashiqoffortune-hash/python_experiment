@@ -1,12 +1,13 @@
-# def drink(money): 
+# def drink(money):
 #     if money >= 2:
 #         return "You've got yourself a soup!"
 #     else:
 #         return "No soup for you!"
-    
+
 
 # print(drink(4))
 # print(drink(1))
+
 
 def alcohol(age, money):
     if (age >= 21) and (money >= 5):
