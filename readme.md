@@ -1,100 +1,33 @@
-<div id="top">
+<div id="top" style="
+  text-align: center;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  padding: 2rem 0;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+">
 
-<!-- HEADER STYLE: CLASSIC -->
-<div align="center">
+  <!-- HEADER STYLE: DEV AESTHETIC -->
+  <header>
+    <p style="font-style: italic; color: #8b949e;">
+      // Built with the tools and technologies:
+    </p>
 
-<em></em>
+    <!-- BADGES -->
+    <div style="margin-top: 0.75rem;">
+      <img 
+        src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" 
+        alt="Python Badge"
+        style="margin: 0.3rem; filter: drop-shadow(0 0 5px rgba(64, 224, 208, 0.4));"
+      >
+    </div>
+  </header>
 
-<!-- BADGES -->
-<!-- local repository, no metadata badges. -->
-
-<em>Built with the tools and technologies:</em>
-
-<img src="https://img.shields.io/badge/Python-3776AB.svg?style=default&logo=Python&logoColor=white" alt="Python">
-
+  <hr style="
+    margin: 2rem auto 0;
+    width: 60%;
+    border: none;
+    border-top: 1px solid #30363d;
+  ">
 </div>
-<br>
-
----
-
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [Overview](#overview)
-- [Features](#features)
-- [Project Structure](#project-structure)
-    - [Project Index](#project-index)
-- [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Testing](#testing)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
----
-
-## Overview
-
-
-## Project Structure
-
-```sh
-└── /
-    ├── calculator.py
-    ├── dictonaries.py
-    ├── get-pip.py
-    ├── hello.py
-    └── my_list.py
-```
-
-### Project Index
-
-<details open>
-	<summary><b><code>/</code></b></summary>
-	<!-- __root__ Submodule -->
-	<details>
-		<summary><b>__root__</b></summary>
-		<blockquote>
-			<div class='directory-path' style='padding: 8px 0; color: #666;'>
-				<code><b>⦿ __root__</b></code>
-			<table style='width: 100%; border-collapse: collapse;'>
-			<thead>
-				<tr style='background-color: #f8f9fa;'>
-					<th style='width: 30%; text-align: left; padding: 8px;'>File Name</th>
-					<th style='text-align: left; padding: 8px;'>Summary</th>
-				</tr>
-			</thead>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='/calculator.py'>calculator.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='/dictonaries.py'>dictonaries.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='/hello.py'>hello.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='/my_list.py'>my_list.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='/get-pip.py'>get-pip.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-			</table>
-		</blockquote>
-	</details>
-</details>
-
-
-
-[back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-
-
----
